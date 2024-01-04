@@ -10,6 +10,10 @@ p {
   font-family: 'Barlow';
 }
 
+html {
+  font-size: 18px;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -40,6 +44,7 @@ nav {
   align-items: center;
   font-family: 'Barlow';
   min-width: 100%;
+  font-size: 1rem;
 }
 
 nav a {
@@ -54,6 +59,12 @@ nav a {
   background-color: hsl(0, 0%, 100%);
   color: hsl(212, 27%, 19%);
   font-family: 'Fraunces';
+}
+
+#contact-button:hover {
+  color: white;
+  background-color: #6bd4f9;
+  transition: 0.2s;
 }
 
 h1 {
