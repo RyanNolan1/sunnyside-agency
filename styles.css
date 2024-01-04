@@ -77,7 +77,7 @@ h1 {
 }
 
 #transform-your-brand {
-  min-height: 50vh;
+  height: 80vh;
   display: flex;
 }
 
@@ -96,7 +96,7 @@ h1 {
   padding: 1rem;
 }
 
-#learn-more-transform {
+.learn-more {
   max-width: fit-content;
   font-family: 'Fraunces';
   background: none;
@@ -114,8 +114,52 @@ h1 {
   display: block;
 }
 
-#learn-more-transform:hover > #learn-more-transform-line {
+.learn-more:hover > #learn-more-transform-line {
   background-color: hsl(50, 100%, 49%);
+  transition: 0.3s;
+}
+
+#stand-out {
+  height: 80vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#stand-out-left-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stand-out-container {
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 1rem;
+}
+
+#learn-more-stand-out {
+  max-width: fit-content;
+  font-family: 'Fraunces';
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: hsl(212, 27%, 19%);
+}
+
+#learn-more-stand-out-line {
+  margin-top: -0.6rem;
+  width: 8rem;
+  height: 0.6rem;
+  border-radius: 3rem;
+  background-color: hsla(7, 99%, 70%, 0.5);
+  display: block;
+}
+
+.learn-more:hover > #learn-more-stand-out-line {
+  background-color: hsl(7, 99%, 70%);
   transition: 0.3s;
 }
 
@@ -128,4 +172,41 @@ h2 {
   font-size: 3rem;
   font-family: 'Fraunces';
   color: hsl(212, 27%, 19%);
+}
+
+#design-and-photography {
+  min-height: 50vh;
+  display: flex;
+}
+
+.design-and-photography-containers {
+  width: 50%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+#design {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+
+#photography {
+  background-image: url(./images/desktop/image-photography.jpg);
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Fraunces';
+}
+
+.design-and-photography-text {
+  max-width: 20rem;
+  text-align: center;
 }
