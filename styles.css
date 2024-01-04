@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+p {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Barlow';
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -19,7 +25,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 4rem;
+  gap: 5.2rem;
 }
 
 #company-logo {
@@ -38,21 +44,22 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 #contact-button {
   padding: 1em 2em 1em 2em;
   border-radius: 2rem;
   border: none;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(212, 27%, 19%);
   font-family: 'Fraunces';
 }
 
 h1 {
   font-family: 'Fraunces';
   font-weight: 900;
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-size: 4rem;
   letter-spacing: 0.6rem;
 }
@@ -70,12 +77,10 @@ h1 {
 }
 
 #transform-your-brand-container {
-  font-family: 'Barlow';
-  font-size: 18px;
   max-width: 28rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.2rem;
 }
 
 #learn-more-transform {
@@ -83,9 +88,12 @@ h1 {
   font-family: 'Fraunces';
   background: none;
   border: none;
+  font-size: 1rem;
+  color: hsl(212, 27%, 19%);
 }
 
 h2 {
   font-size: 3rem;
   font-family: 'Fraunces';
+  color: hsl(212, 27%, 19%);
 }
