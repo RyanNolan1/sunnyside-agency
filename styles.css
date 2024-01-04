@@ -119,6 +119,50 @@ h1 {
   transition: 0.3s;
 }
 
+#stand-out {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#stand-out-left-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stand-out-container {
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 1rem;
+}
+
+#learn-more-stand-out {
+  max-width: fit-content;
+  font-family: 'Fraunces';
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: hsl(212, 27%, 19%);
+}
+
+#learn-more-stand-out-line {
+  margin-top: -0.6rem;
+  width: 8rem;
+  height: 0.6rem;
+  border-radius: 3rem;
+  background-color: hsla(7, 99%, 70%, 0.5);
+  display: block;
+}
+
+#learn-more-stand-out:hover > #learn-more-stand-out-line {
+  background-color: hsl(7, 99%, 70%);
+  transition: 0.3s;
+}
+
 .section-images {
   width: 50%;
   object-fit: cover;
