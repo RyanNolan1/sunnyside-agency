@@ -36,8 +36,16 @@ nav a {
 }
 
 #contact-button {
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   border-radius: 2rem;
   border: none;
   background-color: white;
+  font-family: 'Fraunces';
+}
+
+#contact-button:hover {
+  cursor: pointer;
 }
