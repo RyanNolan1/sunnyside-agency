@@ -88,6 +88,11 @@ h1 {
   gap: 2.2rem;
 }
 
+.section-images {
+  width: 50%;
+  object-fit: cover;
+}
+
 #learn-more-transform {
   max-width: fit-content;
   font-family: 'Fraunces';
