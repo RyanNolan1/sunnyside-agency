@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 header {
   background-image: url('./images/desktop/image-header.jpg');
   background-position: center bottom;
@@ -45,14 +49,43 @@ nav a {
   font-family: 'Fraunces';
 }
 
-#contact-button:hover {
-  cursor: pointer;
-}
-
 h1 {
   font-family: 'Fraunces';
   font-weight: 900;
   color: white;
   font-size: 4rem;
   letter-spacing: 0.6rem;
+}
+
+#transform-your-brand {
+  min-height: 50vh;
+  display: flex;
+}
+
+#transform-your-brand-left-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#transform-your-brand-container {
+  font-family: 'Barlow';
+  font-size: 18px;
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#learn-more-transform {
+  max-width: fit-content;
+  font-family: 'Fraunces';
+  background: none;
+  border: none;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Fraunces';
 }
