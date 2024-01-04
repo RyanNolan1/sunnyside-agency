@@ -64,7 +64,7 @@ nav a {
 #contact-button:hover {
   color: white;
   background-color: #6bd4f9;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 h1 {
@@ -95,11 +95,6 @@ h1 {
   padding: 1rem;
 }
 
-.section-images {
-  width: 50%;
-  object-fit: cover;
-}
-
 #learn-more-transform {
   max-width: fit-content;
   font-family: 'Fraunces';
@@ -107,6 +102,25 @@ h1 {
   border: none;
   font-size: 1rem;
   color: hsl(212, 27%, 19%);
+}
+
+#learn-more-transform-line {
+  margin-top: -0.6rem;
+  width: 8rem;
+  height: 0.6rem;
+  border-radius: 3rem;
+  background-color: hsla(50, 100%, 49%, 0.453);
+  display: block;
+}
+
+#learn-more-transform:hover > #learn-more-transform-line {
+  background-color: hsl(50, 100%, 49%);
+  transition: 0.3s;
+}
+
+.section-images {
+  width: 50%;
+  object-fit: cover;
 }
 
 h2 {
