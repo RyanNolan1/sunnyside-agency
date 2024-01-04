@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 90rem;
+  margin: 0px auto;
+}
+
+header {
+  background-image: url('./images/desktop/image-header.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 70vh;
+}
