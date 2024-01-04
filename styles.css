@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Barlow';
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+header {
+  background-image: url('./images/desktop/image-header.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5.2rem;
+  height: 100vh;
+}
+
+#company-logo {
+  margin-right: auto;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+  align-items: center;
+  font-family: 'Barlow';
+  min-width: 100%;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+#contact-button {
+  padding: 1em 2em 1em 2em;
+  border-radius: 2rem;
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(212, 27%, 19%);
+  font-family: 'Fraunces';
+}
+
+#contact-button:hover {
+  color: white;
+  background-color: #6bd4f9;
+  transition: 0.3s;
+}
+
+h1 {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  color: hsl(0, 0%, 100%);
+  font-size: 4rem;
+  letter-spacing: 0.6rem;
+}
+
+#transform-your-brand {
+  min-height: 50vh;
+  display: flex;
+}
+
+#transform-your-brand-left-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#transform-your-brand-container {
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 1rem;
+}
+
+#learn-more-transform {
+  max-width: fit-content;
+  font-family: 'Fraunces';
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: hsl(212, 27%, 19%);
+}
+
+#learn-more-transform-line {
+  margin-top: -0.6rem;
+  width: 8rem;
+  height: 0.6rem;
+  border-radius: 3rem;
+  background-color: hsla(50, 100%, 49%, 0.453);
+  display: block;
+}
+
+#learn-more-transform:hover > #learn-more-transform-line {
+  background-color: hsl(50, 100%, 49%);
+  transition: 0.3s;
+}
+
+.section-images {
+  width: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Fraunces';
+  color: hsl(212, 27%, 19%);
+}
