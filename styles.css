@@ -14,4 +14,16 @@ header {
   background-position: center bottom;
   background-size: cover;
   min-height: 70vh;
+  padding: 2rem;
+}
+
+#company-logo {
+  margin-right: auto;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
 }
