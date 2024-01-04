@@ -15,6 +15,11 @@ header {
   background-size: cover;
   min-height: 70vh;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem;
 }
 
 #company-logo {
@@ -28,6 +33,7 @@ nav {
   gap: 2rem;
   align-items: center;
   font-family: 'Barlow';
+  min-width: 100%;
 }
 
 nav a {
