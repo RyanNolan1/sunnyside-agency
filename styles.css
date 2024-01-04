@@ -27,6 +27,12 @@ nav {
   justify-content: right;
   gap: 2rem;
   align-items: center;
+  font-family: 'Barlow';
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
 #contact-button {
