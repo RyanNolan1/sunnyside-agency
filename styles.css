@@ -261,3 +261,12 @@ h5 {
   font-family: 'Fraunces';
   font-weight: 900;
 }
+
+#bottom-images-section {
+  height:60vh;
+  display:flex;
+}
+
+.bottom-images {
+  width: 25%;
+}
