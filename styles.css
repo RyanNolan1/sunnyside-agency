@@ -456,6 +456,11 @@ footer {
 }
 
 @media (max-width:320px) {
+
+  header {
+    height:100vh;
+  }
+  
   p {
     max-width:90%;
     overflow-wrap: break-word;
