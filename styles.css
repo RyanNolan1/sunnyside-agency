@@ -362,6 +362,7 @@ h4 {
 }
 
 .design-and-photography-containers {
+  min-height:55vh;
   width:100%;
   padding-left:1.7rem;
   padding-right:1rem;
