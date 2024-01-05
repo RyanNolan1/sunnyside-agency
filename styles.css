@@ -184,6 +184,13 @@ h2 {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 1.8rem;
+  padding-bottom: 4rem;
 }
 
 #design {
@@ -192,4 +199,14 @@ h2 {
 
 #photography {
   background-image: url(./images/desktop/image-photography.jpg);
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Fraunces';
+}
+
+.design-and-photography-text {
+  max-width: 20rem;
+  text-align: center;
 }
