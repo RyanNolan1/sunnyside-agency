@@ -326,7 +326,7 @@ cursor:pointer;
 
 @media (max-width:600px) {
 header {
-  height:70vh;
+  height:50vh;
 }
 
   #top-nav {
@@ -342,6 +342,7 @@ h1 {
 }
 
 h2 {
+  font-size:2rem;
   text-align: center;
 }
 
