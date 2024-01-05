@@ -292,5 +292,22 @@ footer {
 
 #bottom-nav a {
   text-decoration: none;
-  color: hsl(0, 0%, 100%);
+  color: hsl(168, 34%, 41%)
+}
+
+#footer-logo path {
+  fill:hsl(168, 34%, 41%)
+}
+
+#footer-logo:hover {
+  cursor:pointer;
+}
+
+#social-icons {
+  display:flex;
+  gap:2rem;
+}
+
+#social-icons svg:hover {
+cursor:pointer;
 }
