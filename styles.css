@@ -326,7 +326,7 @@ footer {
 cursor:pointer;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
 header {
   height:70vh;
 }
@@ -365,8 +365,8 @@ h4 {
 .design-and-photography-containers {
   min-height:80vh;
   width:100%;
-  padding-left:1.7rem;
-  padding-right:1rem;
+  padding-left:1.77rem;
+  padding-right:1.77rem;
 }
 
 #testimonials {
