@@ -362,7 +362,7 @@ h4 {
 }
 
 .design-and-photography-containers {
-  min-height:55vh;
+  min-height:80vh;
   width:100%;
   padding-left:1.7rem;
   padding-right:1rem;
@@ -412,14 +412,14 @@ padding-bottom:4rem;
 
 #transform-your-brand-left-container {
   width:100%;
-  padding-top:3.55rem;
-  padding-bottom:3.55rem;
+  padding-top:4rem;
+  padding-bottom:4rem;
 }
 
 #stand-out-left-container {
   width:100%;
-  padding-top:3.55rem;
-  padding-bottom:3.55rem;
+  padding-top:4rem;
+  padding-bottom:4rem;
 }
 
 .testimonial-images {
