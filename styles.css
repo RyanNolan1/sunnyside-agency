@@ -77,7 +77,7 @@ h1 {
 }
 
 #transform-your-brand {
-  min-height: 50vh;
+  height: 80vh;
   display: flex;
 }
 
@@ -120,7 +120,7 @@ h1 {
 }
 
 #stand-out {
-  min-height: 50vh;
+  height: 80vh;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -172,4 +172,24 @@ h2 {
   font-size: 3rem;
   font-family: 'Fraunces';
   color: hsl(212, 27%, 19%);
+}
+
+#design-and-photography {
+  min-height: 50vh;
+  display: flex;
+}
+
+.design-and-photography-containers {
+  width: 50%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#design {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+
+#photography {
+  background-image: url(./images/desktop/image-photography.jpg);
 }
