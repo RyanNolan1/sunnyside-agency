@@ -350,6 +350,10 @@ h3 {
   font-size:1.6rem;
 }
 
+h4 {
+  text-align: center;
+}
+
 .section-images {
   width:100%;
   height:100%;
