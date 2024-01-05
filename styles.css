@@ -483,4 +483,8 @@ h4 {
   width:90%;
   overflow-wrap: break-word;
 }
+
+.design-and-photography-containers {
+  height:100vh;
+}
 }
