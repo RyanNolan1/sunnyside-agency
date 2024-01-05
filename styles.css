@@ -36,10 +36,7 @@ nav a {
 }
 
 #contact-button {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1em 2em 1em 2em;
   border-radius: 2rem;
   border: none;
   background-color: white;
