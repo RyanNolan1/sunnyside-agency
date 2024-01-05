@@ -270,3 +270,8 @@ h5 {
 .bottom-images {
   width: 25%;
 }
+
+footer {
+  height:50vh;
+  background-color:rgba(144,212,197,255);
+}
