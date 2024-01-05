@@ -37,7 +37,7 @@ header {
   margin-right: auto;
 }
 
-nav {
+#top-nav {
   padding: 1rem;
   display: flex;
   justify-content: right;
@@ -48,7 +48,7 @@ nav {
   font-size: 1rem;
 }
 
-nav a {
+#top-nav a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
 }
@@ -269,4 +269,46 @@ h5 {
 
 .bottom-images {
   width: 25%;
+}
+
+footer {
+  height:50vh;
+  background-color:rgba(144,212,197,255);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+}
+
+#bottom-nav {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-family: 'Barlow';
+  font-size: 1rem;
+}
+
+#bottom-nav a {
+  text-decoration: none;
+  color: hsl(168, 34%, 41%)
+}
+
+#footer-logo path {
+  fill:hsl(168, 34%, 41%)
+}
+
+#footer-logo:hover {
+  cursor:pointer;
+}
+
+#social-icons {
+  display:flex;
+  gap:2rem;
+  padding-top: 3rem;
+}
+
+#social-icons svg:hover {
+cursor:pointer;
 }
