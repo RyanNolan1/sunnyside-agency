@@ -29,7 +29,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 5.2rem;
+  gap: 4rem;
   height: 100vh;
 }
 
