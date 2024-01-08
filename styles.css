@@ -209,8 +209,9 @@ h3 {
 }
 
 .design-and-photography-text {
-  max-width: 20rem;
+  max-width: 22rem;
   text-align: center;
+  line-height:1.8rem;
 }
 
 #testimonials {
