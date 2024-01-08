@@ -403,7 +403,7 @@ h4 {
   justify-content: center;
   width:90%;
   background-color: rgb(255, 255, 255);
-  padding:4rem;
+  padding-top:2rem;
   margin-top:10vh;
   gap: 2rem;
 }
