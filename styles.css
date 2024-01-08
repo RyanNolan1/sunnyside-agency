@@ -409,7 +409,8 @@ h4 {
   padding-left:1rem;
   padding-right:1rem;
   margin-top:4rem;
-  transition:0.4s;
+  transition:0.8s;
+  transform:translateX(+100%);
 }
 
 #triangle-topright {

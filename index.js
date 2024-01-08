@@ -8,7 +8,10 @@ burgerNav.forEach(function (button) {
 function mobileToggle() {
      if (parseFloat(mobileMenu.style.opacity) === 0) {
         mobileMenu.style.opacity = 1;
+        mobileMenu.style.translate = "-100%"
     } else if (parseFloat(mobileMenu.style.opacity) === 1) {
         mobileMenu.style.opacity = 0;
+        mobileMenu.style.translate = "+100%"
     }
 }
+
