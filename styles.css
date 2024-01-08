@@ -402,7 +402,7 @@ h4 {
 #mobile-menu-container {
   position: fixed;
   width:100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: end;
   padding-left:1rem;
@@ -433,10 +433,6 @@ h4 {
   text-decoration: none;
   font-family: 'Barlow';
   color: hsl(232, 10%, 55%)
-}
-
-.icon-mobile-nav[name="close"] {
-display:none;
 }
 
 #contact-button-mobile {
