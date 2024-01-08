@@ -411,6 +411,7 @@ h4 {
   margin-top:4rem;
   transition:0.8s;
   transform:translateX(+100%);
+  pointer-events: none;
 }
 
 #triangle-topright {
