@@ -309,6 +309,11 @@ footer {
   color: hsl(168, 34%, 41%)
 }
 
+#bottom-nav a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
 #footer-logo path {
   fill:hsl(168, 34%, 41%)
 }
@@ -324,8 +329,11 @@ footer {
   flex-wrap: wrap;
 }
 
-#social-icons svg:hover path {
+#social-icons svg:hover {
   cursor:pointer;
+}
+
+#social-icons svg:hover path {
   fill: white;
   transition: 0.2s;
 }
