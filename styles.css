@@ -399,14 +399,38 @@ h4 {
   position: fixed;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width:90%;
-  background-color: rgb(182, 36, 36);
-  padding:8rem;
+  background-color: rgb(255, 255, 255);
+  padding:4rem;
   margin-top:10vh;
+  gap: 2rem;
+}
+
+.mobile-links {
+  text-decoration: none;
+  font-family: 'Barlow';
+  color:hsl(210, 4%, 67%);
 }
 
 .icon-mobile-nav[name="close"] {
 display:none;
+}
+
+#contact-button-mobile {
+  padding: 1em 2em 1em 2em;
+  border-radius: 2rem;
+  border: none;
+  background-color: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+  font-family: 'Fraunces';
+}
+
+#contact-button-mobile:hover {
+  color: white;
+  background-color: #6bd4f9;
+  transition: 0.3s;
 }
 
 .design-and-photography-containers {
