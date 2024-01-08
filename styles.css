@@ -324,11 +324,8 @@ footer {
   flex-wrap: wrap;
 }
 
-#social-icons svg:hover {
-cursor:pointer;
-}
-
 #social-icons svg:hover path {
+  cursor:pointer;
   fill: white;
   transition: 0.2s;
 }
