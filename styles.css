@@ -338,6 +338,10 @@ footer {
   transition: 0.2s;
 }
 
+.button-mobile-nav {
+  display:none;
+}
+
 @media (max-width:900px) {
 header {
   height:70vh;
@@ -366,6 +370,18 @@ h3 {
 
 h4 {
   text-align: center;
+}
+
+.button-mobile-nav {
+border:none;
+background:none;
+cursor:pointer;
+}
+
+.icon-mobile-nav {
+height: 2rem;
+width: 2rem;
+color:white;
 }
 
 .section-images {
@@ -463,6 +479,10 @@ footer {
 
 #bottom-nav {
   flex-direction: column;
+}
+
+.button-mobile-nav {
+  display:block;
 }
 
 }
