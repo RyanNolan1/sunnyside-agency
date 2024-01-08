@@ -343,7 +343,7 @@ header {
   height:70vh;
 }
 
-  #top-nav {
+.desktop-links {
   display:none;
 }
 
