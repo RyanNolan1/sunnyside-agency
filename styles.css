@@ -30,7 +30,8 @@ header {
   justify-content: flex-start;
   align-items: center;
   gap: 4rem;
-  height: 100vh;
+  min-width: none;height: 100vh;
+  text-align: center;
 }
 
 #company-logo {
@@ -69,6 +70,7 @@ header {
 }
 
 h1 {
+  margin-left:0.6rem;
   font-family: 'Fraunces';
   font-weight: 900;
   color: hsl(0, 0%, 100%);
@@ -77,7 +79,7 @@ h1 {
 }
 
 #transform-your-brand {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
 }
 
@@ -120,13 +122,13 @@ h1 {
 }
 
 #stand-out {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: row-reverse;
 }
 
 #stand-out-left-container {
-  width: 50%;
+ width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +183,7 @@ h2 {
 
 .design-and-photography-containers {
   width: 50%;
-  height: 80vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -207,12 +209,13 @@ h3 {
 }
 
 .design-and-photography-text {
-  max-width: 20rem;
+  max-width: 22rem;
   text-align: center;
+  line-height:1.8rem;
 }
 
 #testimonials {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   gap: 5rem;
   flex-direction: column;
@@ -254,7 +257,7 @@ h4 {
 .testimonial-text {
   text-align: center;
   margin-bottom: 3rem;
-  color:hsl(232, 10%, 55%);
+  color:hsl(213, 9%, 39%);
   max-width:22rem;
   line-height:1.5rem;
 }
@@ -272,17 +275,18 @@ h5 {
 }
 
 #bottom-images-section {
-  height:60vh;
-  display:flex;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .bottom-images {
-  width: 25%;
+  width: 100%;
   object-fit: cover;
 }
 
 footer {
-  height:40vh;
+  min-height:40vh;
   background-color:rgba(144,212,197,255);
   display:flex;
   flex-direction: column;
@@ -305,6 +309,11 @@ footer {
   color: hsl(168, 34%, 41%)
 }
 
+#bottom-nav a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
 #footer-logo path {
   fill:hsl(168, 34%, 41%)
 }
@@ -317,8 +326,181 @@ footer {
   display:flex;
   gap:2rem;
   padding-top: 3rem;
+  flex-wrap: wrap;
 }
 
 #social-icons svg:hover {
-cursor:pointer;
+  cursor:pointer;
+}
+
+#social-icons svg:hover path {
+  fill: white;
+  transition: 0.2s;
+}
+
+@media (max-width:900px) {
+header {
+  height:70vh;
+}
+
+  #top-nav {
+  display:none;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size:2rem;
+}
+
+h2 {
+  font-size:2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size:1.6rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+.section-images {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.design-and-photography-containers {
+  min-height:80vh;
+  width:100%;
+  padding-left:1.77rem;
+  padding-right:1.77rem;
+}
+
+#testimonials {
+padding-top:4rem;
+padding-bottom:4rem;
+}
+
+#testimonial-container {
+  flex-direction:column;
+   width:100vw;
+   gap:3rem;
+}
+
+.testimonial-containers {
+  width:100%;
+}
+
+#testimonial-container {
+  padding-left: 1.77rem;
+  padding-right:1.77rem;
+}
+
+#transform-your-brand{
+  flex-direction:column-reverse;
+  min-height:40vh;
+}
+
+#stand-out {
+  flex-direction:column-reverse;
+  min-height:40vh;
+}
+
+#design-and-photography {
+  flex-direction:column;
+}
+
+#transform-your-brand-container {
+  align-items: center;
+}
+
+#stand-out-container {
+  align-items: center;
+}
+
+#transform-your-brand-left-container {
+  width:100%;
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+#stand-out-left-container {
+  width:100%;
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+.testimonial-images {
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  margin-bottom: 1.2rem;
+}
+
+#bottom-images-section {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  object-fit:cover;
+  height:auto;
+  aspect-ratio: 1 / 1;
+}
+
+#bottom-images-section img {
+  width:100%;
+  height:100%;
+}
+
+footer {
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+#bottom-nav {
+  flex-direction: column;
+}
+
+}
+
+@media (max-width:320px) {
+
+  header {
+    height:100vh;
+  }
+  
+  p {
+    max-width:90%;
+    overflow-wrap: break-word;
+  }
+
+
+h1 {
+  font-size:1.2rem;
+  text-align: center;
+}
+
+h2 {
+  width:90%;
+  overflow-wrap: break-word;
+}
+
+h3 {
+  max-width:90%;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+h4 {
+  width:90%;
+  overflow-wrap: break-word;
+}
+
+.design-and-photography-containers {
+  height:100vh;
+}
 }
