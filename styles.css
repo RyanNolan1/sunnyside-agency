@@ -328,6 +328,11 @@ footer {
 cursor:pointer;
 }
 
+#social-icons svg:hover path {
+  fill: white;
+  transition: 0.2s;
+}
+
 @media (max-width:900px) {
 header {
   height:70vh;
