@@ -435,6 +435,10 @@ h4 {
   color: hsl(232, 10%, 55%)
 }
 
+.icon-mobile-nav[name="close"] {
+display:none;
+}
+
 #contact-button-mobile {
   padding: 1.2em 2em 1.2em 2em;
   border-radius: 2rem;
