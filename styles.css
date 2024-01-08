@@ -402,12 +402,14 @@ h4 {
 #mobile-menu-container {
   position: fixed;
   width:100%;
-  display: none;
+  display: flex;
+  opacity:0;
   flex-direction: column;
   align-items: end;
   padding-left:1rem;
   padding-right:1rem;
-  margin-top:4rem;;
+  margin-top:4rem;
+  transition:0.4s;
 }
 
 #triangle-topright {
