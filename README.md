@@ -23,7 +23,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/RyanNolan1sunnyside-agency](https://github.com/RyanNolan1sunnyside-agency)
-)
 - Live Site URL: [https://ryannolan1.github.io/sunnyside-agency/](https://ryannolan1.github.io/sunnyside-agency/)
 
 ## My process
