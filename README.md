@@ -22,9 +22,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](- Solution URL: [Add solution URL here](https://github.com/RyanNolan1sunnyside-agency)
+- Solution URL: [https://github.com/RyanNolan1sunnyside-agency](https://github.com/RyanNolan1sunnyside-agency)
 )
-- Live Site URL: [Add live site URL here](https://ryannolan1.github.io/sunnyside-agency/)
+- Live Site URL: [https://ryannolan1.github.io/sunnyside-agency/](https://ryannolan1.github.io/sunnyside-agency/)
 
 ## My process
 
